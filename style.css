@@ -99,6 +99,7 @@ header{
 .section2 img{
     width: 110%;
     margin-top: 100px;
+    z-index: 999;
 }
 
 /*-------------------HeroSection End---------------------------*/
