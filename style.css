@@ -12,6 +12,8 @@ header{
     background-color: rgb(255, 255, 255);
     padding: 20px 0px;
     border-bottom: 1px solid rgba(34, 31, 31, 0.014);
+    z-index: 999;
+    
 }
 
 .icon {
@@ -59,7 +61,6 @@ header{
 }
 
 
-
 /*----------------Header section End----------------------------*/
 
 .container{
@@ -75,7 +76,7 @@ header{
 }
 
 .section1 h1{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 65px;
 }
@@ -108,7 +109,6 @@ header{
 .section2 img{
     width: 110%;
     margin-top: 100px;
-    z-index: 999;
 }
 
 /*-------------------HeroSection End---------------------------*/
@@ -379,14 +379,15 @@ header{
 
 /*------------------------------------------------------------*/
 
+
 @media screen and (max-width:1000px){
 
     header{
         width: 100%;
-        height: 50%;
         background-color: rgb(255, 255, 255);
-        padding: 20px 0px;
+        padding: 10px 0px;
         border-bottom: 1px solid rgba(34, 31, 31, 0.014);
+        
     }
     
     .icon {
@@ -413,28 +414,22 @@ header{
         
     }
     
-    .nav{
-        display: flex;
-        margin-right: 15px;
-        gap: 30px;
-        list-style: none;
-        text-decoration: none;
-
-    }
     
-   .nav li a {
+    .nav li a {
         text-decoration: none;
         color: rgb(2, 2, 2);
         font-weight: 600;
         font-size: 16px;
         line-height: 34px;
         padding-left: 50px;
-}
+
+    }
 
     .cart{
         margin-right: 15px;
     }
-     .res{
+
+    .res{
         display: block;
     }
 
@@ -461,6 +456,7 @@ header{
         left: 0%;
         
     }
+    
 
     /*-------------------------------*/
     .container{
@@ -785,6 +781,4 @@ header{
         border-radius: 20px;
     }
     
-    
 }
-
